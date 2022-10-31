@@ -1,0 +1,33 @@
+@import url('./layout.css');
+header img{
+    width: 100%;
+}
+.content{
+    display: flex;
+}
+main{
+    order: 2;
+}
+aside
+{
+    order: 1;
+    display: flex;
+    flex-direction: column;
+}
+main img{
+    float: left;
+    margin: 1em;
+}
+aside{
+    float: left;
+    padding: 1em;
+    font-size: 15pt;
+    border: 1px solid black;
+}
+aside h2{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 30;
+}
+

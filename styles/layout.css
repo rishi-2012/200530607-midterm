@@ -1,0 +1,33 @@
+@import url(./reset.css);
+
+
+
+nav ul li{
+    display: inline-block;
+    color: white;
+}
+nav ul{
+    height: 120px;
+    background-color:darkblue;
+    text-align: center;
+    padding-top: 70px;
+
+}
+nav ul li a{
+    color: white;
+    padding-right: 220px;
+    text-decoration: none;
+    font-size: large;
+}
+
+
+#layout-option-2 aside {
+    width: 30%;
+    order: 1;
+}
+
+#layout-option-2 .content {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
